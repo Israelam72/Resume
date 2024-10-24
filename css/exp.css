@@ -80,3 +80,50 @@
 }
 
 .exp-items li {
+    max-height: 1rem;
+    background: #ffffff;
+    margin: 0.3rem;
+    border-radius: 0.25rem;
+    line-height: 1.4;
+    padding: 0.4rem;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 1000px) {
+    .exp-text {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .exp {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .exp-title {
+        font-size: 3rem;
+        text-transform: capitalize;
+        color: #141414;
+        padding: 0;
+        word-break: normal;
+    }
+
+    .exp-text {
+        font-size: 1.3rem;
+        margin-right: 0;
+    }
+
+    .year {
+        position: initial;
+        order: 1;
+        width: initial;
+        text-align: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .exp-frame {
+        grid-template-columns: 1fr;
+    }
+}
