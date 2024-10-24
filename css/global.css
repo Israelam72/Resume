@@ -29,7 +29,7 @@ img {
     display: block;
 }
 
-.exp-titulo, .formaçao-titulo {
+.exp-title, .education-title {
     font-size: 8rem;
     line-height: 1;
     text-transform: uppercase;
