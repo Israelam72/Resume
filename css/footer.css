@@ -17,7 +17,7 @@
     text-decoration: underline;
 }
 
-.footer-description { /* Translated from footer-descricao */
+.footer-description {
     color: #eeeed3;
     font-size: 1.5rem;
     align-self: center;
@@ -35,7 +35,7 @@
     font-weight: bold;
 }
 
-.footer .rights { /* Translated from direitos */
+.footer .rights {
     color: #eeeed3;
     font-size: 1.15rem;
 }
