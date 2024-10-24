@@ -15,9 +15,9 @@
 .footer-container a {
     color: inherit;
     text-decoration: underline;
- }
+}
 
-.footer-descricao {
+.footer-description { /* Translated from footer-descricao */
     color: #eeeed3;
     font-size: 1.5rem;
     align-self: center;
@@ -35,7 +35,7 @@
     font-weight: bold;
 }
 
-.footer .direitos {
+.footer .rights { /* Translated from direitos */
     color: #eeeed3;
     font-size: 1.15rem;
 }
@@ -50,7 +50,6 @@
         font-size: 1.5rem;
         line-height: 3rem;
     }
-
 }
 
 @media (max-width: 500px) {
