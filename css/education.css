@@ -99,20 +99,20 @@
     flex: 1;
 }
 
-.education-course {
+.education-courses {
     margin-bottom: 3.5rem;
     line-height: 2rem;
 }
 
-.education-language {
+.education-languages {
     line-height: 2rem;
 }
 
-.education-course span, .education-language span {
+.education-courses span, .education-languages span {
     color: #181614;
 }
 
-.education-course h3 {
+.education-courses h3 {
     position: relative;
     color: #201e1a;
     font-size: 0.9rem;
@@ -120,7 +120,7 @@
     margin-bottom: 1rem;
 }
 
-.education-course h3::before {
+.education-courses h3::before {
     background: url("../img/cursos.svg");
     content: '';
     display: block;
@@ -130,12 +130,12 @@
     left: -2rem;
 }
 
-.education-course ul, .education-language ul {
+.education-coursess ul, .education-languages ul {
     padding: 0;
     margin: 0;
 }
 
-.education-course li {
+.education-courses li {
     display: flex;
     justify-content: space-between;
     font-size: 1.12rem;
@@ -146,7 +146,7 @@
     color: #201e1a;
 }
 
-.education-language h3 {
+.education-languages h3 {
     position: relative;
     color: #201e1a;
     font-size: 0.9rem;
@@ -154,7 +154,7 @@
     margin-bottom: 1rem;
 }
 
-.education-language h3::before {
+.education-languages h3::before {
     background: url("../img/idiomas.svg");
     content: '';
     display: block;
@@ -164,7 +164,7 @@
     left: -2rem;
 }
 
-.education-language li {
+.education-languages li {
     font-size: 1.12rem;
     line-height: 2.7rem;
 }
@@ -195,17 +195,17 @@
         margin-bottom: 5rem;
     }
 
-    .education-course h3::before {
+    .education-courses h3::before {
         left: 0;
         top: -1.4rem;
     }
 
-    .education-language h3::before {
+    .education-languages h3::before {
         left: 0;
         top: -1.4rem;
     }
 
-    .education-language {
+    .education-languages {
         margin-bottom: 3rem;
     }
 }
